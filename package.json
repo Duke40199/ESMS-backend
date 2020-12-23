@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-
+    "start": "pm2-runtime start ./dist/app.bundle.js --name esms-backend -i 1",
     "watch": "webpack --watch",
     "dev": "yarn watch && nodemon ./dist/app.bundle.js",
     "deploy": "yarn build && pm2-runtime start ./dist/app.bundle.js --name esms-backend -i 1"
