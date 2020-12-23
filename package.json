@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "yarn build",
+    "build": "webpack",
     "start": "webpack --define process.env.NODE_ENV='\"prod\"'",
     "watch": "webpack --watch",
     "dev": "yarn watch && nodemon ./dist/app.bundle.js",
