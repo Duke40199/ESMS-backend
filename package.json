@@ -43,7 +43,7 @@
     "swagger-ui-express": "^4.1.4",
     "uuid": "^3.4.0",
     "webpack": "^4.44.2",
-    "webpack-node-externals": "^2.5.2"
+    "webpack-node-externals": "^2.5.2",
     "webpack-cli": "^4.2.0"
   },
   "devDependencies": {
